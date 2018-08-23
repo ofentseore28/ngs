@@ -1,0 +1,27 @@
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    white-space: nowrap;
+    background-color: aqua;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0%;
+}
+
+nav ul li a{
+    display: block;
+    color: black;
+    padding: 0.5rem;
+    text-decoration: darkblue;
+
+}
+nav ul li a.current{
+    background:gray;
+}
+profile{
+    background: url('black_background_wood-wallpaper-2560x1600.jpg');
+}
+
